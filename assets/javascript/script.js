@@ -37,7 +37,7 @@ function highlightNumber(event) {
 
   selectedCell.classList.add("highlight"); // qui creò una una classe css per cambiare il colore della cella
 }
-// Funzione per creare la griglia all'avvio della pagina
+// Funzione per creare la griglia all'avvio della pagina web
 window.onload = function () {
   generateGrid();
 };
